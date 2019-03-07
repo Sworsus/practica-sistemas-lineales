@@ -1,0 +1,52 @@
+% %T3
+% gs=tf([1],[1,0.4]);
+% step(gs);
+
+% %T4
+% clear all;
+% T=2;
+% Mp=0.35;
+% ts=9;
+% sigma=4/ts;
+% zeta=log(Mp)/sqrt(1+pi^2);
+% w=asin(zeta)+pi/2;
+% s1=-sigma-j*w;
+% s2=-sigma+j*w;
+% sys=zpk([],[s1,s2],sigma^2+w^2);
+% step(sys);
+
+% %T5
+% clear all;
+% tp=6;
+% ts=19;
+% sigma=4/ts;
+% w=pi/tp;
+% s=-2;
+% s1=-sigma-j*w;
+% s2=-sigma+j*w;
+% sys=zpk([],[s,s1,s2],sigma^2+w^2);
+% step(sys);
+
+% % %T6
+% % clear all;
+% % T=1;
+% % Mp=0.35;
+% % tp=10;
+% % sigma=4/7;
+% % zeta=log(Mp)/sqrt(1+pi^2);
+% % w=asin(zeta)+pi/2;
+% % s1=-sigma-j*w;
+% % s2=-sigma+j*w;
+% % sys=zpk([],[s1,s2],sigma^2+w^2);
+% % step(sys);
+
+% %T7
+% clear all;
+% wn=10;
+% ts=2.5;
+% sigma=4/ts;
+% a=2*sigma;
+% gs=tf([wn],[1,a,wn]);
+% step(gs);
+
+grid;

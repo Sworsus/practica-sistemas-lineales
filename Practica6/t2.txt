@@ -1,0 +1,5 @@
+a) x=sin(5*pi*t) + cos(pi/2*t); Desarrollo-> exp(-(pi*t*1i)/2)/2 + exp((pi*t*1i)/2)/2 + (exp(-pi*t*5i)*1i)/2 - (exp(pi*t*5i)*1i)/2
+c) x=(-1)^t; Desarrollo-> exp(pi*t*1i)
+e) x=cos(pi/5*t)+cos(3/2*pi); Desarrollo-> exp(-(pi*t*1i)/5)/2 + exp((pi*t*1i)/5)/2
+f) x=exp(j*pi/3*t)+sin(3*pi*t); Desarrollo-> (exp(-pi*t*3i)*1i)/2 - (exp(pi*t*3i)*1i)/2 + exp((pi*t*1i)/3)
+j) x=sin(pi*t+pi/4); Desarrollo-> 2^(1/2)*exp(-pi*t*1i)*(1/4 + 1i/4) + 2^(1/2)*exp(pi*t*1i)*(1/4 - 1i/4)
